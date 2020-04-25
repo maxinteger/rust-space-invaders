@@ -1,0 +1,12 @@
+[package]
+name = "space-invaders"
+version = "0.1.0"
+authors = ["Vadasz Laszlo <maxinteger@gmail.com>"]
+edition = "2018"
+default-run = "main"
+
+# See more kdefault-run = "main"eys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+quicksilver = "=0.4.0-alpha0.3"
+instant = "*"
